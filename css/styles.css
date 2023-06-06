@@ -140,12 +140,20 @@ h2 {
   margin: 0;
 }
 
-.cliping-smooth {
+.skate-section h2 {
+  text-align: start;
+  padding-left: 25px;
+}
+
+.stair-case {
   background-image: url(../img/thomas-stair.jpg);
-  clip-path: polygon(0 0, 50% 5%, 100% 0%, 100% 100%, 0 100%);
   position: relative;
   padding-top: 1200px;
   background-repeat: no-repeat;
+}
+
+.cliping-smooth {
+  clip-path: polygon(0 0, 50% 5%, 100% 0%, 100% 100%, 0 100%);
 }
 
 .blur {
