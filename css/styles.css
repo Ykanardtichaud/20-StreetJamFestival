@@ -2,6 +2,7 @@ body {
   max-width: 320px;
   margin: auto;
   background: black;
+  color: whitesmoke;
 }
 
 img {
@@ -33,6 +34,7 @@ header img {
   font-size: 100px;
   animation: scroll 30s linear infinite;
   font-family: sans-serif;
+  color: whitesmoke;
 }
 
 @keyframes scroll {
@@ -67,10 +69,76 @@ header nav a {
 
 .blue-part {
   background-color: #29439b;
-  padding: 20px;
+  padding-top: 20px;
+}
+
+.fusion {
+  padding: 0 15px 15px;
 }
 
 .splitter {
   max-width: 90%;
   margin: auto;
+}
+
+.cliping {
+  clip-path: polygon(0 0, 50% 10%, 100% 0%, 100% 100%, 0 100%);
+  max-width: 100%;
+}
+
+.cliping-smooth {
+}
+
+main p {
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.maps {
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.graf {
+  border: solid 1px whitesmoke;
+}
+.content {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card-content-left {
+  position: absolute;
+  top: 65px;
+  left: 30px;
+}
+
+.card-content-middle {
+  position: absolute;
+  top: 240px;
+  left: 130px;
+  font-size: 23px;
+}
+
+.card-content-right {
+  position: absolute;
+  top: 430px;
+  left: 30px;
+  font-size: 23px;
+}
+
+.card-section {
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  padding: 25px 15px;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Gotham Black", sans-serif;
+  text-align: center;
+  margin-top: 25px;
 }
