@@ -17,11 +17,6 @@ header {
   background-color: #2c4892;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   height: 100px;
   width: 100%;
