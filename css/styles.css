@@ -86,9 +86,6 @@ header nav a {
   max-width: 100%;
 }
 
-.cliping-smooth {
-}
-
 main p {
   color: whitesmoke;
   font-family: "Roboto", sans-serif;
@@ -137,8 +134,37 @@ main p {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Gotham Black", sans-serif;
   text-align: center;
-  margin-top: 25px;
+  margin: 0;
+}
+
+.cliping-smooth {
+  background-image: url(../img/thomas-stair.jpg);
+  clip-path: polygon(0 0, 50% 5%, 100% 0%, 100% 100%, 0 100%);
+  position: relative;
+  padding-top: 1200px;
+  background-repeat: no-repeat;
+}
+
+.blur {
+  background-color: #000000ab;
+  padding: 0 15px 20px;
+  margin: 0;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+ul li {
+  margin-bottom: 25px;
+}
+
+.skater {
+  padding: 25px 15px;
+  font-weight: 500;
 }
