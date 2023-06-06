@@ -229,3 +229,8 @@ ul li {
   left: 175px;
   font-size: 25px;
 }
+
+.card-food {
+  margin-bottom: 50px;
+  border: solid 2px whitesmoke;
+}
