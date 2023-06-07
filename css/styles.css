@@ -176,9 +176,13 @@ ul li {
   margin-bottom: 25px;
 }
 
-.skater {
+.info-text {
   padding: 25px 15px;
   font-weight: 500;
+}
+
+.light-wait {
+  font-weight: 400;
 }
 
 .rap-section {
@@ -230,7 +234,67 @@ ul li {
   font-size: 25px;
 }
 
-.card-food {
+.card {
+  border: solid 2px whitesmoke;
+  padding: 15px;
+}
+
+.img-1 {
+  background-image: url(../img/oh-my-b.jpg);
+  /* Le backround-img de ta carte 1 + son style */
+}
+
+.img-2 {
+  background-image: url(../img/2.jpg);
+  /* Le background-img de ta carte 2 + son style */
+}
+
+.card-content {
+  color: whitesmoke;
+  /* Le style du contenu de la carte */
+}
+
+.card-content-title {
+  font-family: "Gotham Black", sans-serif;
+  text-align: center;
+  /* Le style du titre*/
+}
+
+.card-content-text {
+  text-align: center;
+  /* Le style du text */
+}
+
+card-food {
+  left: 5%;
   margin-bottom: 50px;
   border: solid 2px whitesmoke;
+  position: ;
+  max-width: 90%;
+}
+
+food-text {
+  position: relative;
+  font-size: 17px;
+}
+
+food-card-content {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.banner-card {
+  position: relative;
+}
+
+.banner-card {
+  max-width: 90%;
+  left: 5%;
+  height: auto;
+}
+
+.food-text {
+  position: absolute;
+  top: 25%;
+  color: whitesmoke;
 }
