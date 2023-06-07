@@ -1,5 +1,5 @@
 body {
-  max-width: 320px;
+  max-width: 350px;
   margin: auto;
   background: black;
   color: whitesmoke;
@@ -98,39 +98,60 @@ main p {
   align-items: center;
 }
 
-.graf {
-  border: solid 1px whitesmoke;
+.graf-card {
+  width: 350px;
+  height: 210px;
+  margin-bottom: 50px;
+  border: solid 2px whitesmoke;
+  background-position: center;
+  background-size: cover;
 }
+
+.dread {
+  background-image: url(../img/dread-graf.jpg);
+}
+
+.toto {
+  background-image: url(../img/toto.jpg);
+}
+
+.graf-card-content {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.graf-card-content-text {
+  font-weight: 400;
+  /* Le style du text */
+}
+
+.chemi {
+  background-image: url(../img/chemistri.jpg);
+}
+
+.graf-card-content-toto {
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 25px 0 0 160px;
+}
+
+.graf-card-content-dread {
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 50px 0 0 30px;
+}
+
+.graf-card-content-title {
+  font-family: "Gotham Black", sans-serif;
+  margin-bottom: 0;
+}
+
 .content {
   font-size: 25px;
   font-weight: 400;
-}
-
-.card-content-left {
-  position: absolute;
-  top: 65px;
-  left: 30px;
-}
-
-.card-content-middle {
-  position: absolute;
-  top: 240px;
-  left: 130px;
-  font-size: 23px;
-}
-
-.card-content-right {
-  position: absolute;
-  top: 430px;
-  left: 30px;
-  font-size: 23px;
-}
-
-.card-section {
-  position: relative;
-  text-align: center;
-  color: whitesmoke;
-  padding: 25px 15px;
 }
 
 h2 {
@@ -174,6 +195,7 @@ ul {
 
 ul li {
   margin-bottom: 25px;
+  padding-right: 15px;
 }
 
 .info-text {
@@ -185,116 +207,106 @@ ul li {
   font-weight: 400;
 }
 
-.rap-section {
-}
-
-.fade {
-  position: relative;
-}
-.rap-global {
-  padding-bottom: 275px;
+.crowded {
+  background-image: url(../img/crowded.jpg);
+  background-size: contain;
+  padding-top: 550px;
 }
 
 .card-rap {
-  border: solid 1px whitesmoke;
+  width: 350px;
+  height: 210px;
   margin-bottom: 50px;
+  border: solid 2px whitesmoke;
+  background-position: center;
+  background-size: cover;
 }
 
-.card-rap-section {
-  position: absolute;
-  top: 6000px;
-  max-width: 80%;
-  left: 10%;
+.slimka {
+  background-image: url(../img/slimcard.jpg);
 }
 
-.overlay-text {
-  position: absolute;
-  font-size: 25px;
+.rapeuse {
+  background-image: url(../img/rap-card.jpg);
+}
+
+.rap-card-content-opposite {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.rap-card-content-text {
   font-weight: 400;
 }
 
-.overlay-text-left {
-  position: absolute;
-  top: 0px;
-  left: 130px;
+.jackson {
+  background-image: url(../img/jackard.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.rap-card-content-slimka {
+  color: whitesmoke;
+  padding-left: 165px;
   font-size: 20px;
 }
 
-.overlay-text-middle {
-  position: absolute;
-  top: 230px;
-  left: 14px;
-  font-size: 23px;
+.rap-card-content-jackson {
+  color: whitesmoke;
+  padding: 50px 0 0 200px;
+  font-size: 20px;
 }
 
-.overlay-text-right {
-  position: absolute;
-  top: 495px;
-  left: 175px;
-  font-size: 25px;
+.rap-card-content-title {
+  font-family: "Gotham Black", sans-serif;
+  margin-bottom: 0;
 }
 
 .card {
   border: solid 2px whitesmoke;
-  padding: 15px;
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
 }
 
-.img-1 {
+.oh-my-b {
   background-image: url(../img/oh-my-b.jpg);
-  /* Le backround-img de ta carte 1 + son style */
 }
 
-.img-2 {
-  background-image: url(../img/2.jpg);
-  /* Le background-img de ta carte 2 + son style */
+.cilantro {
+  background-image: url(../img/con-cilantro.jpg);
+}
+
+.dog {
+  background-image: url(../img/dogo-car.jpg);
+}
+
+.breton {
+  background-image: url(../img/bretagnes.jpg);
+}
+
+.poke {
+  background-image: url(../img/poke-paradie.jpg);
+}
+
+.smoothies {
+  background-image: url(../img/smoothie-stop.jpg);
 }
 
 .card-content {
   color: whitesmoke;
-  /* Le style du contenu de la carte */
 }
 
 .card-content-title {
   font-family: "Gotham Black", sans-serif;
   text-align: center;
-  /* Le style du titre*/
 }
 
 .card-content-text {
   text-align: center;
-  /* Le style du text */
-}
-
-card-food {
-  left: 5%;
-  margin-bottom: 50px;
-  border: solid 2px whitesmoke;
-  position: ;
-  max-width: 90%;
-}
-
-food-text {
-  position: relative;
   font-size: 17px;
-}
-
-food-card-content {
-  padding: 50px 30px;
-  text-align: center;
-}
-
-.banner-card {
-  position: relative;
-}
-
-.banner-card {
-  max-width: 90%;
-  left: 5%;
-  height: auto;
-}
-
-.food-text {
-  position: absolute;
-  top: 25%;
-  color: whitesmoke;
 }
