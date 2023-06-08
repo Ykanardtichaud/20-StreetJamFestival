@@ -345,7 +345,7 @@ footer h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 50px;
+  padding-bottom: 55px;
 }
 
 .social {
@@ -358,7 +358,7 @@ footer h2 {
 
 .upper {
   width: 100%;
-  bottom: 20px;
+  bottom: 15px;
   left: 0;
   position: fixed;
   display: flex;
