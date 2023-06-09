@@ -1,3 +1,10 @@
+html {
+  background-image: url(../img/street-bg.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 body {
   max-width: 350px;
   margin: auto;
